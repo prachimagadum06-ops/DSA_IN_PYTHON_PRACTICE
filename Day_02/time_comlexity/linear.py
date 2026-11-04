@@ -16,3 +16,15 @@ def count_even(arr):
             count += 1
     return count
 print(count_even([1, 2, 3, 4, 5, 6]))
+
+
+
+
+#Example 3:
+def largest_num(arr):
+    largest = arr[0]
+    for i in arr:
+        if i > largest:
+            largest = i
+        return largest
+print(largest_num([10, 25, 5, 45, 30]))
